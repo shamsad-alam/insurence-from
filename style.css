@@ -1,0 +1,213 @@
+.bannerimg {
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("./image/laptop.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.bann_title h1 {
+    font-size: 4.5rem;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.location :first-child {
+    background-color: rgb(234, 234, 234);
+    padding: 10px 15px;
+    font-weight: 600;
+}
+
+.location :last-child {
+    background-color: #dbedff;
+    padding: 7px 15px;
+    font-weight: 600;
+}
+
+.location p i{
+    font-size: 18px;
+
+
+}
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 13px;
+    padding: 10px 0;
+    border-top: 1px solid rgb(225, 225, 225);
+    border-bottom: 1px solid rgb(225, 225, 225);
+
+}
+.filter p{
+    font-weight: 600;
+    margin: 0;
+}
+
+.filter .dropdown button {
+    background-color: white;
+    color: black;
+    outline: none;
+    box-shadow: none;
+    /* padding: 5px 10px; */
+    border: 1px solid rgb(198, 198, 198);
+}
+
+
+.proposal-form {
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 40px 5px;
+    padding: 1.3rem 2.5rem;
+}
+.proposal-form form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+.row{
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+.proposal-form h4{
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.proposal-form .proposal_title{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.proposal-form label{
+    font-size: 14px;
+}
+
+.proposal-form form :first-child{
+    color: #0066b1;
+    font-weight: 600;
+}
+
+.proposal-form form input,.proposal-form form select{
+    border: none;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.proposal-form form .input_grp{
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 5px;
+    
+}
+.chexbox{
+    box-shadow: 0 3px 8px rgb(206, 206, 206);
+}
+.chexbox .form-check, label{
+    padding-left: 0;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+
+.summary{
+    background-color: rgb(244, 244, 244);
+    padding-bottom: 30px;
+}
+
+
+.summary h4{
+    background-color: #0066b1;
+    padding: 10px 20px;
+    border-radius: 10px 10px 0 0 ;
+    color: white;
+}
+.summary .summary_details{
+    padding: 0 20px ;
+}
+.summary p{
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.summary .base{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+}
+
+.rider{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    border: 2px dashed  #00ff88;
+    background-color: #e9fff5;
+    margin: 10px 0;
+
+}
+.rider p:last-child{
+    color: red;
+}
+
+
+.summary .total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #b2dfff;
+    margin: 10px 0;
+}
+.summary .total h6{
+    margin-bottom: 0;
+    color: #003a64;
+}
+
+
+.summary .benifit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    margin: 20px 20px;
+    border: 2px dashed  #00ff88;
+    background-color: #e9fff5;
+
+}
+.benifit p:last-child{
+    color: red;
+}
+
+
+.summary .btn1{
+    background-color: #faa619;
+    margin: 0px 20px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.summary .btn1 button{
+    background-color: #faa619;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-weight: bold;
+}
